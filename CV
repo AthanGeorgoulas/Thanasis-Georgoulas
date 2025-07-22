@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Athanasios Georgoulas – CV</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f7f7f7;
+      padding: 2rem;
+      max-width: 700px;
+      margin: auto;
+      color: #333;
+    }
+    h1 {
+      color: #1a1a1a;
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+    .contact {
+      margin-bottom: 2rem;
+    }
+    a.button {
+      display: inline-block;
+      padding: 10px 20px;
+      margin-top: 1rem;
+      background-color: #007acc;
+      color: white;
+      text-decoration: none;
+      border-radius: 4px;
+    }
+    a.button:hover {
+      background-color: #005f99;
+    }
+    footer {
+      margin-top: 3rem;
+      font-size: 0.9rem;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <h1>Athanasios Georgoulas</h1>
+  <div class="contact">
+    <p>📍 Thessaloniki, Greece</p>
+    <p>📧 <a href="mailto:thanasisgeorgulas@gmail.com">thanasisgeorgulas@gmail.com</a></p>
+    <p>🔗 <a href="https://www.linkedin.com/in/thanasisgeorgoulas" target="_blank">LinkedIn Profile</a></p>
+  </div>
+
+  <p>Hello! This is my professional CV page. You can download my resume below.</p>
+  
+  <a class="button" href="GeorgoulasCV.pdf" target="_blank">📄 View / Download CV (PDF)</a>
+
+  <footer>
+    <p>Last updated: July 2025</p>
+  </footer>
+</body>
+</html>
